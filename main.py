@@ -6,7 +6,7 @@ from sqlalchemy import create_engine,text
 from langchain.chains import create_sql_query_chain
 import streamlit as st
 
-llm = GoogleGenerativeAI(model="gemini-pro",google_api_key="AIzaSyAP3lP8CBJ8bsuLSzF5Ll9SMJR2Olggyqc")
+llm = GoogleGenerativeAI(model="gemini-pro",google_api_key="AIzaSyAP3lP************Ll9SMJR2Olggyqc")
 
 def connect_to_DB():
     try:
